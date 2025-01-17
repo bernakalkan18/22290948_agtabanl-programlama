@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+     
+    <title>TravellerBlog</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header class="header-bg">
+        <img src="img/logo.png" alt="Berna Kalkan Logo">
+        <div class="container">
+            <h1>TravellerBlog</h1>
+            <nav>
+                <ul>
+                    <li><a href="#" class="button" onclick="goster('öneriler')">Beni Daha İyi Tanıyın!</a></li>
+                    <li><a href="#" class="button" onclick="goster('hakkimda')">Hakkımda</a></li>
+                    <li><a href="#" class="button" onclick="goster('iletisim')">İletişim</a></li>
+                    <li><a href="#" class="button" onclick="goster('gizlilik')">Gizlilik Politikası</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="icerik">
+                <div id="öneriler" class="sekme-icerik">
+                    <h2>Beni Daha İyi Tanıyın!</h2>
+                    <p>Ben, yeni yerler keşfetmeyi, farklı kültürleri tanımayı ve bu deneyimlerimi paylaşmayı seven bir bilgisayar mühendisliği öğrencisiyim. 8 Ekim 2003'te doğdum.</p>
+                </div>
+                <div id="hakkimda" class="sekme-icerik" style="display: none;">
+                    <h2>Hakkımda</h2>
+                    <div class="biyografi-container">
+                        <section class="biyografi-resim">
+                            <img src="img/berna.jpg" alt="Berna Kalkan">
+                        </section>
+                        <section class="biyografi-metin">
+                            <p>Merhaba, ben Berna. Öğrenim hayatımı Ankara'daki çeşitli okullarda tamamladım. Şu anda Ankara Üniversitesi'nin Bilgisayar Mühendisliği bölümünde 2. sınıf öğrencisiyim.</p>
+                        </section>
+                    </div>
+                </div>
+                <div id="iletisim" class="sekme-icerik" style="display: none;">
+                    <h2>İletişim</h2>
+                    <p>E-mail: brnklkn8@gmail.com</p>
+                    <p>Telefon: +90 554 444 22 33</p>
+                    <p>Instagram: bernakalkann</p>
+                    <p><a href="https://www.linkedin.com/in/berna-k-706920247">LinkedIn Hesabım</a></p>
+                </div>
+                <div id="gizlilik" class="sekme-icerik" style="display: none;">
+                    <h2>Gizlilik Politikası</h2>
+                    <p>Bu blogda kullanıcı bilgilerinin gizliliğine önem verilmektedir. Kişisel bilgileriniz asla üçüncü şahıslarla paylaşılmayacak ve yalnızca blogun geliştirilmesi için kullanılacaktır.</p>
+                </div>
+            </div>
+
+            <section class="yerler">
+                <h2>Gezdiğim Yerler</h2>
+                <div class="yerler-grid">
+                    <div class="yer-kart">
+                        <h3>Katar</h3>
+                        <img src="img/katar.jpg" alt="Katar">
+                        <p>Katar, Arap Yarımadasının doğusunda bir Basra Körfezi ülkesidir.</p>
+                        <button class="detay-buton">Daha fazlası için tıklayınız</button>
+                        <p class="detay-yazi">Doha, Qatar’ın (Katar) başkenti ve en büyük şehri. Ülkenin doğusundaki Basra Körfezi kıyısında yer alıyor. Ülke nüfusunun % 40’ı Doha şehir merkezi ve banliyölerinde yaşıyor. Şehir aynı zamanda ülkenin ekonomik merkezi ve Katar’ın 7 belediyesinden biri. Orta Doğu’da bir geçiş noktası olmaktan çok daha fazlasını hak eden Doha’nın büyük bir ticaret ve alışveriş merkezine dönüştürülüp Dubai ile yarışır bir şehir olması planlanıyor. Burası çölün ortasında dantel gibi işlenen sanat eseri gökdelenleri, Maldivler’e alternatif Banana Adası, çöl safarisi ve misafirperver insanıyla misafirlerini hemen etkisi altına alıyor. Doha bir de tasarım dalında UNESCO yaratıcı şehirler ağına kabul edilmesiyle adını duyuruyor.
+
+                            Doha’ya yolum daha önce birkaç kez düştü. Ama ziyaretim Doha Hamad Uluslararası Havalimanı’ndan öteye geçmedi. Buraya kadar gelip ülkeyi görememekse içimde bir ukde olarak kaldı. Şimdiyse 2 uçuşum arasında Doha’da 23 saatlik aktarmam vardı. Bu da bana şehri kısa da olsa tanıma fırsatı verdi. </p>
+                    </div>
+                    <div class="yer-kart">
+                        <h3>Ayvalık</h3>
+                        <img src="img/ayvalik.jpg" alt="Ayvalık">
+                        <p>Ayvalık, güzel plajları ve tarihi dokusuyla harika bir tatil beldesidir.</p>
+                        <button class="detay-buton">Daha fazlası için tıklayınız</button>
+                        <p class="detay-yazi">Serin, kumlu ve sığ denizi, nefis yemekleri ve ona eşlik eden onlarca farklı mezesi, sıcak ama yakmayan havası, her bir köşesinin güzelliği ile Ayvalık, gündüzü ayrı gecesi ayrı güzel yerlerden. Eğer şehirden sıkılıp birkaç günlük kaçamak yapmak istiyorsanız ya da yaz tatiliniz için sakin bir yer arıyorsanız Ayvalık’ı mutlaka değerlendirmeye alın. Hem deniz kenarında hem yıllara meydan okuyan sokaklarında hem de oturduğunuz her Ayvalık sofrasında hayatın ne kadar güzel olduğunu göreceksiniz.</p>
+                    </div>
+                    <div class="yer-kart">
+                        <h3>Cunda Adası</h3>
+                        <img src="img/cunda.jpg" alt="Cunda Adası">
+                        <p>Cunda, şirin sokakları ve lezzetli deniz ürünleriyle ünlü bir adadır.</p>
+                        <button class="detay-buton">Daha fazlası için tıklayınız</button>
+                        <p class="detay-yazi">Ege’deki tatil yerleri arasında bir seçim yapmaya çalışırken Cunda mı, Bozcaada mı, Bodrum mu, Alaçatı mı diye düşürken bu yazımıza denk geldiyseniz size koca bir HOOOP! çekiyoruz. Estafurullah efendim, hepsi bir kefeye konur mu hiç? Evet, hepsi Egeli, ama hepsi birbirinden de bir o kadar farklı ki…  Avarel ve Joe gibi aynı aileden gelen bambaşka karakterler.
+
+                            Bodrum şöyle, Bozcaada böyle diye tek tek anlatmak isterdik ama malumunuz bu yazımızın as solisti Cunda Adası. Cunda’yı en iyi ifade eden şey de bizce aheste bir keyif yeri.
+                            
+                            Girit mutfağı, Rum mirası sokaklar, özerk ada hissiyatı, hoş insanlar, edilen muhabbetler, gün batımında sofra sefası ile ince ve dingin yaşamayı sevenlere hitap ediyor. Tabi ki bu söylediklerimiz buraların tadını en güzel çıkaracağınız zamanlar olan sezon başı ve sezon sonu için geçerli. Bayram gibi zamanlarda sizi mutsuz eder. Önerimiz bayram gibi yoğun zamanlarda tercih etmemeniz yönünde. Tatiliniz uyuyor ise yaz yerine okulların açık olduğu zamanları tercih edebilirsiniz.</p>
+                    </div>
+                    <div class="yer-kart">
+                        <h3>Eskişehir</h3>
+                        <img src="img/eskisehir.jpg" alt="Eskişehir">
+                        <p>Eskişehir, modern kafe ve restoranlarıyla ünlü, tarihi dokusunu koruyan bir şehirdir.</p>
+                        <button class="detay-buton">Daha fazlası için tıklayınız</button>
+                        <p class="detay-yazi">Eskişehir, yabancıların deyimiyle Türkiye’nin en underrated yani daha fazlasını hak eden şehirleri arasında başı çekiyor. Bir öğrenci kenti olan Eskişehir, gerek tarihi gerek doğası gerekse de yaşam standartlarıyla kesinlikle gezip görülmeye değer.
+
+                            Peki, biz neden Eskişehir’in hak ettiği değeri bulamadığını düşünüyoruz? Çünkü şehrin işlevsel bir sivil havalimanı yok. Eskişehir’in tek havalimanı olan Hasan Polatkan, Hava Kuvvetleri Komutanlığı tarafından kullanılan bir tesis. Umuyoruz ki şehir yakın zamanda hak ettiği havalimanına kavuşacak ve Türkiye’nin önde gelen turizm noktalarından birine dönüşecek.
+                            
+                            Eskişehir gezi rehberinde, bir gezginin bu sakin ve genç nüfuslu şehri tanımak için neler yapması gerektiğinden bahsedeceğiz. Eskişehir’de gezip görülecek yerleri anlatıp şehrin en iyi restoranlarına ve gece hayatına değineceğiz.</p>
+                    </div>
+                </div>
+            </section>
+     
+            <section class="galeri">
+                <h2>Gezilerimden Kareler</h2>
+                <div class="galeri-grid">
+                    <div class="galeri-kare">
+                        <img src="img/foto1.jpg" alt="Geziden Fotoğraf 1">
+                        <p>Katar'dan bir kare</p>
+                    </div>
+                    <div class="galeri-kare">
+                        <img src="img/foto2.jpg" alt="Geziden Fotoğraf 2">
+                        <p>Ayvalık'ın eşsiz manzarası</p>
+                    </div>
+                    <div class="galeri-kare">
+                        <img src="img/foto3.jpg" alt="Geziden Fotoğraf 3">
+                        <p>Cunda Adası'nda gün batımı</p>
+                    </div>
+                    <div class="galeri-kare">
+                        <img src="img/foto4.jpg" alt="Geziden Fotoğraf 4">
+                        <p>Eskişehir'in modern yüzü</p>
+                    </div>
+                </div>
+            </section>
+
+
+        </div>
+        <br><br><br> 
+
+    </main>
+
+    <footer>
+        <div class="footer-button-ziyaretci">
+            <button class="big-button-ziyaretci" onclick="window.location.href='http://localhost/proje/index.php'">
+                Ziyaretçileri İnceleyin ve Ekleyin
+            </button>
+        </div>
+    </footer>
+     
+
+    <script>
+        function gosterYazi(id) {
+            const yazi = document.getElementById(id);
+            if (yazi.style.display === "block") {
+                yazi.style.display = "none";
+            } else {
+                yazi.style.display = "block";
+            }
+        }
+
+        function goster(sekme) {
+            const tumSekmeler = document.querySelectorAll('.sekme-icerik');
+            tumSekmeler.forEach(sekmeIcerik => sekmeIcerik.style.display = 'none');
+            document.getElementById(sekme).style.display = 'block';
+        }
+    </script>
+    <script>
+        document.querySelectorAll('.yer-kart').forEach(kart => {
+            kart.addEventListener('click', function () {
+                const aciklama = this.querySelector('.detay-yazi');
+                const buton = this.querySelector('.detay-buton');
+        
+                if (this.classList.contains('genisletildi')) {
+                    this.classList.remove('genisletildi');
+                    aciklama.style.display = 'none';
+                    buton.style.display = 'block';
+                } else {
+                    this.classList.add('genisletildi');
+                    aciklama.style.display = 'block';
+                    buton.style.display = 'none';
+                }
+            });
+        });
+    
+        </script>
+        
+
+</body>
+</html>
